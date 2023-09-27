@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <link rel="stylesheet" href="css/foundation.css">
+</head>
+
+<body style="background-image: url(pastel.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+
+    <!-- Your page content lives here -->
+    <!-- main content within a `grid-container` -->
+    <div class="grid-container">
+        <!-- `grid-x` represents a row -->
+        <div class="grid-x grid-padding-x align-middle">
+            <div class="cell hide-for-large small-4"></div>
+            <div class="cell small-4 large-3 logo align-middle">
+                <img src="logo.png" class="logo"></img>
+            </div>
+            <div class="cell small-12 large-auto">
+                <h1 id="big_title">
+                    My Website
+                </h1>
+            </div>
+        </div>
+
+        <div class="grid-x grid-margin-x align-middle">
+            <a style="color:lightcyan" id="button" type="button" class="cell small-6 large-3 button"
+                href="index.html">Home</a>
+            <a style="color:lightcoral;" id="button" type="button" class="cell small-6 large-3 button"
+                href="projects.html">Projects</a>
+            <a style="color:lightseagreen;" id="button" type="button" class="cell small-6 large-3 button"
+                href="resume.html">Resume</a>
+            <a style="color:lightgoldenrodyellow;" id="button" type="button" class="cell small-6 large-3 button"
+                href="fun.html">Fun</a>
+        </div>
+
+        <div class="grid-x grid-margin-x align-middle" style="text-align: center;">
+            <div id="page_title" class="cell small-12 large-12 align-middle">
+                Pets </div>
+
+            <div class="cell show-for-large large-2">
+            </div>
+            <div id="block_text" class="cell large-auto">
+                I have 2 dogs. Both of them are Golden Retrievers. The older boy is named Chewie. He's a
+                very mellow guy. The younger girl is Chloe. She is very hyper.
+            </div>
+            <div class="cell show-for-large large-2">
+            </div>
+
+            <div class="grid-x align-middle grid-margin-x" style="text-align: center;">
+                <div class="cell small-6 large-auto align-middle">
+                    <div class="grid-y align-middle">
+                        <img id="picture_frame" class="cell" src="fun/sunglasses chew.jpg">
+                        <div id="small_title" class="cell">
+                            Chewie
+                        </div>
+                    </div>
+                </div>
+                <div class="cell small-6 large-auto align-middle">
+                    <div class="grid-y align-middle">
+                        <img id="picture_frame" class="cell" src="fun/Chloe.jpg">
+                        <div id="small_title" class="cell">
+                            Chloe
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="grid-x align-middle grid-margin-x" style="text-align: center;">
+                <div id="page_title" class="cell small-12 large-12 align-middle">
+                    Drawings </div>
+
+                <div class="cell show-for-large large-3">
+                </div>
+                <div id="block_text" class="cell large-auto">
+                    In my spare time I like to draw.
+                </div>
+                <div class="cell show-for-large large-3">
+                </div>
+
+                <div class="cell" style="margin: .5rem;"></div>
+
+                <div class="grid-x align-middle grid-margin-x" style="text-align: center;">
+                    <div class="cell small-6 large-auto align-middle">
+                        <div class="grid-y align-middle">
+                            <img id="picture_frame" src="fun/portrait.jpg">
+                        </div>
+                    </div>
+                    <div class="cell show-for-large large-5 align-middle">
+                        <div class="grid-y align-middle">
+                            <img id="picture_frame" src="fun/spider.jpg">
+                        </div>
+                    </div>
+                    <div class="cell small-6 large-auto align-middle">
+                        <div class="grid-y align-middle">
+                            <img id="picture_frame" src="fun/anime.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="cell show-for-large large-2"></div>
+                <div class="cell small-6 large-4 align-middle">
+                    <div class="grid-y align-middle">
+                        <img id="picture_frame" src="fun/feet.jpg">
+                    </div>
+                </div>
+                <div class="cell small-6 large-4 align-middle">
+                    <div class="grid-y align-middle">
+                        <img id="picture_frame" src="fun/oogeyboogy.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="cell" style="height: 5rem;">
+            </div>
+        </div>
+
+
+        <!-- include before closing <body> tag -->
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script type="application/javascript">
+            $(document).foundation();
+        </script>
+</body>
+
+</html>
