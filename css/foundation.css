@@ -9942,7 +9942,7 @@ screen and (min-width: 75em) {
 
 #page_title {
   text-align: center;
-  font-size: 4vmax;
+  font-size: 6vmin;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 5%;
 }
@@ -9956,7 +9956,7 @@ screen and (min-width: 75em) {
 
 #big_title {
   text-align: center;
-  font-size: 7vmax;
+  font-size: 7vmin;
   background-color: white;
   border-radius: 5vmin;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
