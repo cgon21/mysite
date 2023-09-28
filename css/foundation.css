@@ -9930,23 +9930,19 @@ screen and (min-width: 75em) {
   animation-delay: 700ms !important;
 }
 
-#bigger-title {
-  font-size: 24px;
-}
-
 #resume_body {
-  font-size: 1rem;
+  font-size: 1vmax;
   font-family: 'Times New Roman', Times, serif;
 }
 
 #resume_header {
-  font-size: 2rem;
+  font-size: 2vmax;
   font-family: 'Times New Roman', Times, serif;
 }
 
 #page_title {
   text-align: center;
-  font-size: 4rem;
+  font-size: 4vmax;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 5%;
 }
@@ -9954,13 +9950,13 @@ screen and (min-width: 75em) {
 #button {
   background-color: black;
   border-radius: 1rem;
-  font-size: large;
+  font-size: 2vmin;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #big_title {
   text-align: center;
-  font-size: 7rem;
+  font-size: 7vmax;
   background-color: white;
   border-radius: 5rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -9972,14 +9968,14 @@ screen and (min-width: 75em) {
   background-color: darkslategray;
   border-radius: 2rem;
   color: white;
-  font-size: large;
+  font-size: 1vmax;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
 #small_title {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2vmax;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
